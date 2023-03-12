@@ -1,0 +1,35 @@
+/* Remove default list styles */
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style link and icon on hover */
+  li:hover a,
+  li:hover i {
+    color: black;
+  }
+  
+  /* Reset link and icon styles on mouse out */
+  li a,
+  li i {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add underline to link on hover */
+  li:hover a {
+    text-decoration: underline;
+  }
+  
+  /* Custom styles for link and icon */
+  li a {
+    display: block;
+    padding: 10px;
+  }
+  
+  li i {
+    margin-right: 10px;
+  }
+  

@@ -1,0 +1,23 @@
+.station-info {
+    border: '1px solid #c71818',
+    padding: '10px',
+    margin-bottom: '20px'
+  }
+  
+  .station-info h4 {
+    font-size: 20px;
+    margin-bottom: 5px;
+  }
+  
+  .station-info h6 {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+  
+  .station-info h6:first-of-type {
+    margin-top: 0;
+  }
+  
+  .station-info h6:last-of-type {
+    margin-bottom: 0;
+  }
